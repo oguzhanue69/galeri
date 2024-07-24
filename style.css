@@ -1,0 +1,32 @@
+#one{
+    background: url("58e9cb436dabfc1521dc3768070e0d56.jpg");
+}
+#two{
+    background-image: url("Agacli-Yol.jpg"); 
+}
+#three{
+    background-image: url("desktop-wallpaper-turkiye-nin-platformu-en-İyi-manzara-resimleri-full.jpg");
+}
+#four{
+    background-image: url("pexels-photo-417074.jpeg");
+}
+#five{
+    background-image: url("lavanta.jpeg");
+}
+.resim{
+width: 200px;
+height: 100vh;
+border: 2px solid;
+border-radius: 30px;
+margin: 10px;
+background-size: cover;
+flex: 0.5;
+cursor: pointer;
+transition: flex 0.5;
+}
+.main{
+    display: flex;
+}
+.resim.active{
+    flex: 5;
+}
